@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff9800, #ffcc80); /* Orange gradient */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important; /* Golden hover effect */
+}
+
+/* Card Background */
+.card {
+    background-color: #fff3e0; /* Light orange shade */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Title */
+h2 {
+    color: #ff6f00; /* Deep orange */
+}
+
+/* Buttons */
+.btn-warning {
+    background-color: #ff9800;
+    border-color: #ff9800;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #e65100;
+    border-color: #e65100;
+    color: white;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ff7700;
+}
+
+/* Social Icons */
+footer .bi {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+}

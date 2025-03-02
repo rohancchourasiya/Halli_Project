@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Haldiram Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header style="padding: 20px 0; background-color: #f8f9fa;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 100px;">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+  
+        <!-- Search Bar on the Left -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+  
+        <!-- Centered Logo -->
+        <a class="navbar-brand mx-auto" href="#">
+          <img src="logo.svg" alt="Haldiram Logo" class="logo-img" style="height: 100px;">
+        </a>
+  
+        <!-- Icons on the Right -->
+        <div class="d-flex align-items-center gap-4">
+          <a href="#" class="nav-link"><i class="fa-regular fa-user fa-2x"></i></a>
+          <a href="#" class="nav-link"><i class="fa-regular fa-heart fa-2x"></i></a>
+          <a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+        </div>
+  
+      </div>
+    </nav>
+  </header>
+  
+<div style="background-color: orange; padding: 15px 0;">
+  <div class="container">
+    <div class="d-flex justify-content-between text-white fw-bold">
+    
+      <span class="nav-item"><a class="nav-link text-white" href="index.html">HOME</a></span>
+      <span class="nav-item"><a class="nav-link text-white" href="Sweets.html">SWEETS</a></span>
+      <span class="nav-item"><a class="nav-link text-white" href="DryFruit.html">DRY FRUIT'S</a></span>
+      <span class="nav-item"><a class="nav-link text-white" href="Snacks.html">SNACKS</a></span>
+      <span class="nav-item"><a class="nav-link text-white" href="beverages.html">BEVERAGES</a></span>
+      <span class="nav-item"><a class="nav-link text-white" href="about.html">ABOUT US</a></span>
+      <span class="nav-item"><a class="nav-link text-white" href="contact.html">CONTACT</a></span>
+      
+    </div>
+  </div>
+</div>
+
+
+  <!-- Hero Carousel -->
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    
+    </div>
+    
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Header_1.webp" class="d-block w-100" alt="Delicious Sweets">
+        <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Header_2.webp" class="d-block w-100" alt="Namkeens">
+        <div class="carousel-caption d-none d-md-block">
+           </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Header_3.webp" class="d-block w-100" alt="Festive Treats">
+        <div class="carousel-caption d-none d-md-block">
+         </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Header_4.webp" class="d-block w-100" alt="Namkeens">
+        <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Header_5.webp" class="d-block w-100" alt="Namkeens">
+        <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Header_6.webp" class="d-block w-100" alt="Namkeens">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Header_7.webp" class="d-block w-100" alt="Namkeens">
+        <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Header_8.webp" class="d-block w-100" alt="Namkeens">
+        <div class="carousel-caption d-none d-md-block">
+          </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container-fluid mt-4">
+    <h2 class="text-center fw-bold">Dry Fruits</h2>
+    <div class="row justify-content-center">
+        <!-- Dry Fruit Cards -->
+         
+        <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_1_1.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Fancy Dry Fruits Box (BB)</h6>
+                  <p class="text-black fw-bold">₹2400</p>
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_1_2.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Roasted Dry Fruit Tokni (320gm)</h6>
+                  <p class="text-black fw-bold">₹665</p>              
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_1_3.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Roasted Dry Fruit Tokni (440gm)</h6>
+                  <p class="text-black fw-bold">₹890</p>
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      
+
+      <div class="col-lg-2 col-md-4 col-6 p-2">
+        <div class="card text-center">
+            <img src="div_1_4.webp" class="card-img-top" alt="Not Found">
+            <div class="card-body">
+                <h6 class="card-title">Fancy Dry Fruits Box (AAA)</h6>
+                <p class="fw-bold">
+                  <span class="text-black"> ₹3202</span>
+                  <span class="text-muted text-decoration-line-through">₹3370</span>
+                  <span class="text-danger fw-semibold"> (5% OFF)</span>
+              </p>
+                <div class="btn-group mt-2">
+                    <a href="#" class="btn btn-danger">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="col-lg-2 col-md-4 col-6 p-2">
+      <div class="card text-center">
+          <img src="div_1_5.webp" class="card-img-top" alt="Not Found">
+          <div class="card-body">
+              <h6 class="card-title">Fancy Dry Fruit Tokni (440gm)</h6>
+              <p class="text-black fw-bold">₹1525</p>
+              <div class="btn-group mt-2">
+                  <a href="#" class="btn btn-danger">Add to Cart</a>
+              </div>
+          </div>
+      </div>
+  </div>
+        <!-- Add more dry fruit cards as needed -->
+    </div>
+    <div class="text-center mt-3">
+        <a href="DryFruit.html" class="btn btn-primary">View More</a>
+    </div>
+</div>
+
+<!-- Sweets Section -->
+
+<div class="container-fluid mt-4">
+  <h2 class="text-center fw-bold">BestSellers</h2>
+  <div class="row justify-content-center">
+
+      <!-- Sweet Card 1 -->
+      <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_2_1.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Sweet Wonder</h6>
+                  <p class="text-black fw-bold price">₹250</p>
+                  <div class="quantity-options d-flex justify-content-center gap-2">
+                      <span class="available" onclick="updatePrice(this, 150)">500g</span>
+                      <span class="available" onclick="updatePrice(this, 250)">1kg</span>
+                  </div>
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Sweet Card 2 -->
+      <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_2_2.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Orange Burfee</h6>
+                  <p class="text-black fw-bold price">₹180</p>
+                  <div class="quantity-options d-flex justify-content-center gap-2">
+                      <span class="available" onclick="updatePrice(this, 180)">1kg</span>
+                      <span class="unavailable">500g</span>
+                  </div>
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Sweet Card 3 -->
+      <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_2_3.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Badam Halwa</h6>
+                  <p class="text-black fw-bold price">₹50</p>
+                  <div class="quantity-options d-flex justify-content-center gap-2">
+                      <span class="available" onclick="updatePrice(this, 50)">200g</span>
+                  </div>
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Sweet Card 4 -->
+      <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_2_4.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Kaju Katli</h6>
+                  <p class="text-black fw-bold price">₹180</p>
+                  <div class="quantity-options d-flex justify-content-center gap-2">
+                      <span class="available" onclick="updatePrice(this, 180)">250g</span>
+                      <span class="unavailable">500g</span>
+                  </div>
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Sweet Card 5 -->
+      <div class="col-lg-2 col-md-4 col-6 p-2">
+          <div class="card text-center">
+              <img src="div_2_5.webp" class="card-img-top" alt="Not Found">
+              <div class="card-body">
+                  <h6 class="card-title">Rasgulla</h6>
+                  <p class="text-black fw-bold price">₹180</p>
+                  <div class="quantity-options d-flex justify-content-center gap-2">
+                      <span class="available" onclick="updatePrice(this, 180)">500g</span>
+                      <span class="available" onclick="updatePrice(this, 300)">1kg</span>
+                  </div>
+                  <div class="btn-group mt-2">
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  <div class="text-center mt-3">
+      <a href="Sweets.html" class="btn btn-primary">View More</a>
+  </div>
+</div>
+
+<script>
+  function updatePrice(element, price) {
+      let card = element.closest(".card-body");
+      let priceTag = card.querySelector(".price");
+      priceTag.textContent = `₹${price}`;
+  }
+</script>
+
+<!-- First Container - 3 Boxes -->
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-12 p-2">
+        <img src="div_3_1.jpeg" class="img-fluid rounded shadow" alt="Not Found">
+    </div>
+    <div class="col-lg-4 col-md-4 col-12 p-2">
+      <img src="div_3_2.jpeg" class="img-fluid rounded shadow" alt="Not Found">
+    </div>
+    <div class="col-lg-4 col-md-4 col-12 p-2">
+      <img src="div_3_3.jpeg" class="img-fluid rounded shadow" alt="Not Found">
+    </div>
+  </div>
+</div>
+<!-- Second Container - 3 Boxes -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-12 p-2">
+      <img src="div_4_1.jpeg" class="img-fluid rounded shadow" alt="Not Found">
+    </div>
+    <div class="col-lg-4 col-md-4 col-12 p-2">
+      <img src="div_4_2.jpeg" class="img-fluid rounded shadow" alt="Not Found">
+    </div>
+    <div class="col-lg-4 col-md-4 col-12 p-2">
+      <img src="div_4_3.jpeg" class="img-fluid rounded shadow" alt="Not Found">
+    </div>
+  </div>
+</div>
+
+<!-- Third Container - 2 Boxes -->
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12 p-2">
+      <div class="box">
+        <img src="second_last_1.webp" alt="Not Found">
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-12 p-2">
+      <div class="box">
+        <img src="second_last_2.webp" alt="Not Found">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Container - 1 Full-Width Image -->
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-12 p-2">
+      <img src="last_image.webp" alt="Full Width Image" class="img-fluid full-width-image">
+    </div>
+  </div>
+</div>
+
+<section class="about-us py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <h2 >ABOUT US</h2>
+              <p>Over the course of eight decades, a lot has changed about us. We have relocated, undergone expansion, developed new product lines & added segments, opened retail chains & stores across India, and embraced new markets overseas.</p>
+              <p>One thing hasn’t changed - we’re still a tight-knit family business, committed to serving the most authentic taste of India through our products.</p>
+              <p>Our origins can be traced back to a small namkeen shop in Bikaner founded by Ganga Bishan Agarwal (Haldiram Ji). This modest shop quickly gained popularity and scaled up to meet a booming demand for its unique-tasting bhujia. Building on this legacy, his grandson, our pioneer Mr. Shiv Kishan Agrawal steered the business towards the heights it has tasted today.</p>
+          </div>
+          
+            <div class="col-md-6 text-center">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/6nP2kxxJiKU" frameborder="0" allowfullscreen></iframe>
+
+          </div>
+         
+      </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+ 
+  <footer class="bg-light pt-4">
+    <div class="container">
+        <!-- Newsletter Section -->
+        <div class="row bg-warning py-3 px-4 align-items-center">
+            <div class="col-md-6 d-flex align-items-center">
+                <i class="bi bi-envelope-fill me-2" style="font-size: 1.5rem;"></i>
+                <div>
+                    <h5 class="mb-0">SIGN UP FOR NEWSLETTER</h5>
+                    <p class="mb-0">Want To Get Latest Updates! Sign Up For Free.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-end">
+                <input type="email" class="form-control d-inline w-50" placeholder="Enter your email address">
+                <button class="btn btn-danger">Subscribe</button>
+            </div>
+        </div>
+
+        <!-- Footer Links Section -->
+        <div class="row pt-4">
+            <div class="col-md-3">
+                <h6 class="fw-bold">QUICK LINKS</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">About Us</a></li>
+                    <li><a href="#" class="text-dark">Our Process</a></li>
+                    <li><a href="#" class="text-dark">CSR Activities</a></li>
+                    <li><a href="#" class="text-dark">Recipes</a></li>
+                    <li><a href="#" class="text-dark">Offices</a></li>
+                    <li><a href="#" class="text-dark">Retail Stores & Restaurants</a></li>
+                    <li><a href="#" class="text-dark">Store Locator</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="fw-bold">OUR SERVICES</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">Bulk Orders</a></li>
+                    <li><a href="#" class="text-dark">Careers</a></li>
+                    <li><a href="#" class="text-dark">Contact Us</a></li>
+                </ul>
+                <h6 class="fw-bold mt-3">VIDEOS</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">Brand Videos</a></li>
+                    <li><a href="#" class="text-dark">Recipe Videos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="fw-bold">OUR POLICIES</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">Cancellation & Refund</a></li>
+                    <li><a href="#" class="text-dark">Shipping</a></li>
+                    <li><a href="#" class="text-dark">Payments</a></li>
+                    <li><a href="#" class="text-dark">Terms & Conditions</a></li>
+                    <li><a href="#" class="text-dark">Privacy Policy</a></li>
+                    <li><a href="#" class="text-dark">Quality Assurance</a></li>
+                    <li><a href="#" class="text-dark">Certification & Accolades</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="fw-bold">REACH US</h6>
+                <p class="mb-1"><strong>Email:</strong> support@haldirams.com</p>
+                <p class="mb-1"><strong>Call:</strong> +91 712-2779451</p>
+                <p class="mb-3"><strong>Customer Care Timings:</strong> 10:00 AM To 6:00 PM</p>
+                <h6 class="fw-bold">PAYMENT SECURED BY</h6>
+                <i class="bi bi-credit-card-fill me-2" style="font-size: 1.5rem;"></i>
+                <i class="bi bi-paypal me-2" style="font-size: 1.5rem;"></i>
+                <i class="bi bi-bank me-2" style="font-size: 1.5rem;"></i>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <hr>
+        
+        <div class="row text-center mt-3">
+            <div class="col-md-12">
+                <h6 class="fw-bold">FOLLOW US</h6>
+                <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="#" class="text-dark me-2"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="#" class="text-dark me-2"><i class="bi bi-twitter"></i> Twitter</a>
+                <a href="#" class="text-dark me-2"><i class="bi bi-youtube"></i> YouTube</a>
+                <a href="#" class="text-dark"><i class="bi bi-pinterest"></i> Pinterest</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+  
+  
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

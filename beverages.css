@@ -1,0 +1,164 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #b5f16c, #ffcc80); /* Warm gradient */
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background: #d32f2f !important; /* Rich red for premium feel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important; /* Golden effect */
+    transform: scale(1.05);
+}
+
+/* Back Button */
+.btn-outline-danger {
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+    background-color: #a8ec60;
+    color: #fff;
+    border-color: #ff7700;
+}
+
+/* Beverages Section */
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff6f00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: #fff7e6; /* Soft beige tone */
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff6f00;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Price Styling */
+.text-danger {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d32f2f !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.text-danger:hover {
+    color: #ff9800 !important;
+}
+
+/* Buttons */
+.btn-warning {
+    background-color: #ff7700;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-warning:hover {
+    background-color: #cc6600;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px rgba(255, 119, 0, 0.5);
+}
+
+/* Newsletter Section */
+.bg-warning {
+    background-color: #ff7700 !important;
+    color: white;
+    border-radius: 8px;
+}
+
+.input-group input {
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    border: 2px solid #ff9800;
+}
+
+.input-group button {
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ff7700;
+}
+
+/* Social Icons */
+footer .bi {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+/* Prevent Horizontal Scroll */
+
